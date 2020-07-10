@@ -2,7 +2,7 @@
 
 本网站用于记录作者从大三暑假找实习开始经历过的所有笔试和面试题。包括以下公司：Oasis（绿洲VR）、字节跳动、Ubisoft···
 
-### Oasis   —— 2020/06/16
+### Oasis（游戏开发实习生）   —— 2020/06/16
 
 Oasis是一个15-50人的小公司，在上海交大徐汇校区旁边，在开发“绿洲VR”的虚拟世界社交网络平台。没有现场的笔试和面试，只是技术负责人打电话沟通了一下项目经历等，然后给了两道笔试题要求在两天之内给出解决思路。
 
@@ -54,27 +54,51 @@ Oasis是一个15-50人的小公司，在上海交大徐汇校区旁边，在开�
 **Suppose**：A和B具有不同版本的通信协议，但需要通信，如何规避数据解析错误？ 
 1. A 和 B 在通信传输之前事先交换协议栈。 
 2. 编写一个第三方 M，同时兼容A和B的通信协议，并且可以在其上对不同版 本的通信协议进行互相的转换和解读。（A to M, M to B） 
-**Pros And Cons**：第一种方法因为是直接交换协议栈，明显会快于第二种方法，交换 IP 地址而后再进行一些操作便可以实现正确的通信传输。
+**Pros And Cons**：第一种方法因为是直接交换协议栈，明显会快于第二种方法，交换IP地址而后再进行一些操作便可以实现正确的通信传输。
                    而第二种方法系统的鲁棒性会更高，如果有第三个用户C想要加入AB之间通信的话，就只需使M兼容C的通信协议并且可以转换解读，
                    这样无论多少个用户想加入传输都可以，应用范围较为广泛。（A,B,C to M; M to A,B,C）
 
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Ubisoft（HR Information System Analyst Intern）   —— 2020/06/22
+育碧投的这个岗位，当时理解的是做前端后端，结果发现其实是要做一个完整的系统，当时我是啥都不会（现在也是），因此没有通过，暂且记录下来。
 
-### Jekyll Themes
+```markdown
+限时四十分钟：
 
+
+1. A business man has bought a farm by the sea and developed a new campsite containing onsite caravans and tent pitches which can be booked. 
+Each caravan is given a unique number and description. Each tent pitch will also be uniquely numbered. 
+He requires a new on-line system to deal with enquiries and bookings. 
+
+Customers will log on and enter the required date and number of weeks indicating whether they wish to book a caravan or a tent pitch. The system will check and confirm if the required dates are available. If the dates are available, the customer will be asked if they wish to continue with the booking and to enter their personal details. The system will also require a deposit to be paid using a secure on-line payment system. When the deposit is received a confirmation invoice will be emailed to the customer detailing the outstanding payment which must be paid four weeks before the arrival date. 
+
+a) List the external entities, processes and data stores in the above scenario and draw a high level logical data flow diagram. 
+b) Identify the systems entities and relationships and draw an entity relationship diagram dealing with the booking process only. 
+c) Briefly describe the role and skills of the following: 
+  (i) System analyst/designer
+  (ii) Programmer
+  
+  
+2. a) What makes a good screen design? Discuss the techniques that can be used to assist the users. 
+   b) Draft a series of on-line screens depicting the booking process in question A1, displaying available dates and indicate the validation of each field. 
+   c) Describe the theory and main features of a relational database.
+   
+   
+3. a) Discuss how a testing strategy should be prepared. Include various techniques which could be used and describe the difference between black and white box testing. 
+   b) Briefly describe the advantages and disadvantages of the following: 
+     i) Stage implementation 
+     ii) Direct implementation 
+     iii) Parallel implementation 
+   c) Outline measures you would use to protect data from malicious and accidental loss/access.
+   
+4. What structures and procedures would you put in place to ensure that all documentation generated during a project was to the highest standard?
+
+5. Without reference to cost or time, discuss the advantages and disadvantages of a prototyping technique of your choice.
+
+6. Briefly describe the following methodologies: (i) Waterfall (5 marks) (ii) Object oriented (5 marks) (iii) Agile
+
+```
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saengsawang/saengsawang.Github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
