@@ -1,17 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome To My Interview Experience
 
-You can use the [editor on GitHub](https://github.com/saengsawang/saengsawang.Github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+本网站用于记录作者从大三暑假找实习开始经历过的所有笔试和面试题。包括以下公司：Oasis（绿洲VR）、字节跳动、Ubisoft···
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Oasis ——2020/06/16
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Oasis是一个15-50人的小公司，在上海交大徐汇校区旁边，在开发“绿洲VR”的虚拟世界社交网络平台。
+没有现场的笔试和面试，只是技术负责人打电话沟通了一下项目经历等，然后给了两道笔试题要求在两天之内给出解决思路。
 
 ```markdown
-Syntax highlighted code block
+这两道笔试题如下
 
-# Header 1
+# VRIK
 ## Header 2
 ### Header 3
 
