@@ -61,6 +61,7 @@ Oasis是一个15-50人的小公司，在上海交大徐汇校区旁边，在开�
 ```
 
 ### Ubisoft（HR Information System Analyst Intern）   —— 2020/06/22
+
 育碧投的这个岗位，当时理解的是做前端后端，结果发现其实是要做一个完整的系统，当时我是啥都不会（现在也是），因此没有通过，暂且记录下来。
 
 ```markdown
@@ -71,7 +72,11 @@ Oasis是一个15-50人的小公司，在上海交大徐汇校区旁边，在开�
 Each caravan is given a unique number and description. Each tent pitch will also be uniquely numbered. 
 He requires a new on-line system to deal with enquiries and bookings. 
 
-Customers will log on and enter the required date and number of weeks indicating whether they wish to book a caravan or a tent pitch. The system will check and confirm if the required dates are available. If the dates are available, the customer will be asked if they wish to continue with the booking and to enter their personal details. The system will also require a deposit to be paid using a secure on-line payment system. When the deposit is received a confirmation invoice will be emailed to the customer detailing the outstanding payment which must be paid four weeks before the arrival date. 
+Customers will log on and enter the required date and number of weeks indicating whether they wish to book a caravan or a tent pitch. 
+The system will check and confirm if the required dates are available. 
+If the dates are available, the customer will be asked if they wish to continue with the booking and to enter their personal details. 
+The system will also require a deposit to be paid using a secure on-line payment system. 
+When the deposit is received a confirmation invoice will be emailed to the customer detailing the outstanding payment which must be paid four weeks before the arrival date. 
 
 a) List the external entities, processes and data stores in the above scenario and draw a high level logical data flow diagram. 
 b) Identify the systems entities and relationships and draw an entity relationship diagram dealing with the booking process only. 
@@ -99,8 +104,39 @@ c) Briefly describe the role and skills of the following:
 6. Briefly describe the following methodologies: (i) Waterfall (5 marks) (ii) Object oriented (5 marks) (iii) Agile
 
 ```
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saengsawang/saengsawang.Github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### 字节跳动（后端开发工程师——视频架构）   —— 2020/06/28一面 2020/07/09二面
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+字节跳动投的不是日常实习生，而是秋招提前批，因此前前后后一共会有三次面试。目前一面通过了，昨晚刚经历二面。
+
+```markdown
+根据我模糊的记忆写下这两次面试的题目，一面由于第二道编程题写了好久所以是一个半小时，二面总共一个小时不到一点。
+
+
+# 一面
+
+
+- 基础知识
+计算机网络：分层架构、TCP等
+操作系统：进程调度方法
+算法：各种排序的区别和实现
+计算机安全：isa协议
+数据结构：链表、红黑树原理以及与普通二叉树的区别
+数据库：左连接右连接
+
+- 编程
+1. 判断一棵二叉树是否对称（镜像对称）
+
+**Answer** 两个节点存储的值相等；
+           节点A的左子树节点与节点B的右子树节点对称；
+           节点A的右子树节点与节点B的左子树节点对称。
+       
+2.  多叉树（字典树）的查询插入
+
+**Answer** 可以用数组实现，可以用链表，具体查百度（我也没写好）
+
+
+# 二面
+
+
+- 基础知识
