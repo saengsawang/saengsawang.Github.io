@@ -191,6 +191,6 @@ c) Briefly describe the role and skills of the following:
 求：第一个间断的数，例如上述数组是7
 要求：时间复杂度O(N)，空间复杂度：尽可能小
 **Answer**
-![image](https://github.com/saengsawang/img-storage/blob/master/zijie_interview_answer.png)
+![image_text](https://github.com/saengsawang/img-storage/blob/master/zijie_interview_answer.png)
 
 ```
