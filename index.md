@@ -126,13 +126,11 @@ c) Briefly describe the role and skills of the following:
 
 - 编程
 1. 判断一棵二叉树是否对称（镜像对称）
-
 **Answer** 两个节点存储的值相等；
            节点A的左子树节点与节点B的右子树节点对称；
            节点A的右子树节点与节点B的左子树节点对称。
        
 2.  多叉树（字典树）的查询插入
-
 **Answer** 可以用数组实现，可以用链表，具体查百度（我也没写好）
 
 
@@ -193,6 +191,6 @@ c) Briefly describe the role and skills of the following:
 求：第一个间断的数，例如上述数组是7
 要求：时间复杂度O(N)，空间复杂度：尽可能小
 **Answer**
-![Image text](https://github.com/saengsawang/img-storage/blob/master/字节二面间断数解答.png)
+![Image text](https://github.com/saengsawang/img-storage/blob/master/zijie_interview_answer.png)
 
 ```
