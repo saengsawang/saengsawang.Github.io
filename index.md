@@ -190,7 +190,10 @@ c) Briefly describe the role and skills of the following:
 有一个整数数组：15，3，10，9，6，5，4，8，13，16
 求：第一个间断的数，例如上述数组是7
 要求：时间复杂度O(N)，空间复杂度：尽可能小
-**Answer**
-![image_text](https://github.com/saengsawang/img-storage/blob/master/zijie_interview_answer.png)
+**Answer** （1）找到最小值和数组长度
+           （2）建立一个len长度的数组，并且都置0
+           （3）遍历每个数，减去最小值后将对应标记数组的数置为1
+           （4）遍历这个标记数组，找到仍为0的下标+min作为结果返回
+           （5）如果不存在返回min+n
 
 ```
